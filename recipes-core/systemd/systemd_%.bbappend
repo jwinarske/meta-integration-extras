@@ -1,2 +1,0 @@
-
-PACKAGECONFIG:remove = "networkd resolved"
