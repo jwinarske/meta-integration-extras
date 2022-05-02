@@ -1,3 +1,5 @@
+FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
+
 SRC_URI += "file://scale17OEDemo.nmconnection"
 
 do_install:append () {
