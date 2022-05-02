@@ -1,6 +1,5 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
-SRC_URI += "file://scale17OEDemo.nmconnection"
+SRC_URI = "file://scale17OEDemo.nmconnection"
 
 do_install:append () {
     install -d ${D}${sysconfdir}/NetworkManager/system-connections
